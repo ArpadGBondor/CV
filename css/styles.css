@@ -1,0 +1,212 @@
+body {
+  background-color: var(--main-2-color);
+  /* background-image: repeating-linear-gradient(45deg, var(--main-2-color), var(--main-3-color), var(--main-2-color)); */
+  /* background-repeat: repeat; */
+  color: var(--trans-light-color);
+  /* font-family: 'Nunito Sans', sans-serif; */
+}
+
+h2 {
+  margin-bottom: 2rem;
+  /* margin-top: 2rem; */
+}
+
+p {
+  margin-bottom: 0;
+}
+
+a {
+  color: var(--highlight-color);
+}
+
+a:hover, a:active {
+  color: var(--highlight-full-color);
+}
+
+a:visited {
+  color: var(--highlight-full-color);
+}
+
+.highlight {
+  color: white;
+  font-weight: bold;
+}
+
+.section-color-light {
+  background-color: var(--trans-light-color);
+  color: var(--trans-dark-color);
+}
+
+.section-color-light .highlight {
+  color: var(--main-2-color);
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: var(--main-2-color);
+  font-weight: bold;
+}
+
+/* HEADER */
+.header {
+  min-height: 100vh;
+}
+
+.header-info{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 100%;
+}
+
+.profile-picture{
+  margin: 3%;
+  max-width: 40%;
+  max-height: 40%;
+  border-radius: 50%;
+  border: 0.5rem solid var(--main-2-color);
+}
+
+.contact-icon {
+  margin: 1rem;
+  color: var(--trans-dark-color);
+  font-size: 2.5rem;
+}
+
+.contact-icon:hover {
+  color: black;
+}
+
+.header-introduction{
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.introduction{
+  text-align: justify;
+  max-width: 35rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 3%;
+  font-family: 'Kalam', cursive;
+  font-size: 1.5rem;
+}
+
+/* EXPERIENCE */
+.experience-row {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+/* EDUCATION */
+#education {
+  font-size: 1.5rem;
+}
+
+.education-row {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+/* QUALIFICATIONS */
+#qualifications{
+  font-size: 1.5rem;
+}
+
+.qualifications-row {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* SKILLS */
+.skills-row{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* AWARDS */
+.awards-row {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.awards-rank {
+  font-weight: bold;
+}
+
+.awards-column {
+  padding: 2%;
+}
+
+.awards-card-body {
+  text-align: center;
+  /* font-size: 1.5rem; */
+}
+
+.awards-card-footer {
+  text-align: center;
+}
+
+.awards-icon {
+  margin: 0.5rem;
+  color: var(--trans-dark-color);
+  font-size: 2rem;
+}
+
+/* INTERESTS */
+.interests-icon{
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 3rem;
+}
+.interests-p{
+  text-align: justify;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.resume-section {
+  display: flex;
+  align-items: center;
+  padding: 5%
+}
+
+.section-content {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .resume-section {
+    min-height: 100vh;
+  }
+}
