@@ -15,7 +15,7 @@ p {
   margin-bottom: 0;
 }
 
-mark {
+mark, .mark {
   color: white;
   background-color: transparent;
 }
@@ -37,7 +37,7 @@ a:visited {
   color: var(--trans-dark-color);
 }
 
-.section-color-light mark {
+.section-color-light mark, .section-color-light .mark {
   color: var(--main-2-color);
   background-color: transparent;
 }
