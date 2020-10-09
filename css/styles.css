@@ -15,6 +15,17 @@ p {
   margin-bottom: 0;
 }
 
+mark {
+  color: white;
+  background-color: transparent;
+}
+
+.section-color-light mark {
+  color: var(--main-2-color);
+  background-color: transparent;
+}
+
+
 a {
   color: var(--highlight-color);
 }
