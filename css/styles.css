@@ -131,6 +131,10 @@ a:visited {
   font-weight: bold;
 }
 
+.awards-date {
+  font-weight: bold;
+}
+
 .awards-column {
   padding: 2%;
 }
