@@ -1,14 +1,10 @@
 body {
   background-color: var(--main-2-color);
-  /* background-image: repeating-linear-gradient(45deg, var(--main-2-color), var(--main-3-color), var(--main-2-color)); */
-  /* background-repeat: repeat; */
   color: var(--trans-light-color);
-  /* font-family: 'Nunito Sans', sans-serif; */
 }
 
 h2 {
   margin-bottom: 2rem;
-  /* margin-top: 2rem; */
 }
 
 p {
