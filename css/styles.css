@@ -214,3 +214,50 @@ a:visited {
     min-height: 100vh;
   }
 }
+
+.print-only {
+  display: none;
+}
+
+@media print {
+  body,
+  a,
+  .section-color-light,
+  .btn,
+  .section-color-light .btn,
+  .contact-icon,
+  .awards-icon,
+  .interests-icon {
+    color: black;
+    background-color: transparent;
+  }
+
+  mark,
+  .mark,
+  .section-color-light mark,
+  .section-color-light .mark {
+    color: darkgray;
+    background-color: transparent;
+  }
+
+  .print-inline {
+    display: inline;
+  }
+
+  .print-block {
+    display: block;
+  }
+
+  .contact-icon {
+    font-size: 1rem;
+  }
+
+  .btn,
+  .btn-lg {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 1rem;
+  }
+}
