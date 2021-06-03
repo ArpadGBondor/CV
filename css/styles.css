@@ -106,16 +106,16 @@ a:visited {
   justify-content: center;
   align-items: center;
   height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .introduction {
   text-align: justify;
   max-width: 35rem;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  padding: 3%;
+  margin: 3%;
   font-family: 'Kalam', cursive;
 }
 
