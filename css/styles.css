@@ -45,6 +45,23 @@ a:visited {
   background-color: transparent;
 }
 
+/* Button */
+
+.btn {
+  background-color: var(--trans-light-color);
+  color: var(--trans-dark-color);
+  margin: 0.5rem 1rem;
+}
+
+.section-color-light .btn {
+  background-color: var(--main-2-color);
+  color: var(--trans-light-color);
+}
+
+.section-color-light .btn:hover {
+  color: white;
+}
+
 /* NAVBAR */
 .navbar {
   background-color: var(--main-2-color);
@@ -85,6 +102,8 @@ a:visited {
 
 .header-introduction {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   height: 100%;
 }
